@@ -5,3 +5,13 @@ h1 {
 body {
     background-image: url(https://backgroundlabs.com/wp-content/uploads/2015/02/pastel-circle-dot-background-1.png);
 }
+
+h2 {
+    color: brown;
+    cursor: pointer;
+}
+
+#div1 {
+    color: brown;
+}
+
