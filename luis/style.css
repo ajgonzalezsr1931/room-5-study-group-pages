@@ -1,4 +1,4 @@
-h1 {
+h1, p, h2 {
     color: brown;
 }
 
@@ -7,9 +7,6 @@ body {
     background-image: url(https://backgroundlabs.com/wp-content/uploads/2015/02/pastel-circle-dot-background-1.png);
 }
 
-h2 {
-    color: brown;
-}
 
 #div1 {
     color: brown;
