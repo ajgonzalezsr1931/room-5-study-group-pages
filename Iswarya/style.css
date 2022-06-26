@@ -2,7 +2,7 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #8274c0;
+	background-color: #0cabb6;
 	
 }
 nav li {
@@ -22,5 +22,12 @@ li a {
 li a:hover {
 	background-color: rgb(15, 1, 65);
 }
-h1 h3 {
-	font-family: Georgia, 'Times New Roman', Times, serif}
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	text-align: center;
+}
+body{
+	background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+	color: white;
+	width:auto;
+}
