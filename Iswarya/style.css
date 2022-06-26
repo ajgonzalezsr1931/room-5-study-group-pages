@@ -3,31 +3,47 @@ nav ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #0cabb6;
+	display: table;
 	
 }
 nav li {
-	display: inline-block;
-	border: 10px;
-	width:100%;
+	display:table-cell;
+	width:auto;
+	
 }
 
 li a {
-	display: block;
+	display: block ;
 	color: white;
 	text-align: center;
 	padding: 30px 30px;
 	text-decoration: none;
+
 }
 
 li a:hover {
 	background-color: rgb(15, 1, 65);
 }
+header{
+	position: fixed;
+	width:100%;
+
+}
 h1 {
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	text-align: center;
+	margin:0%;
+	padding: 0%;
+	
 }
-body{
+main{
 	background-image: url(https://images.pexels.com/photos/531880/pexels-photo-531880.jpeg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
 	color: white;
-	width:auto;
+	
+}
+#para{
+	color: black;
 }
