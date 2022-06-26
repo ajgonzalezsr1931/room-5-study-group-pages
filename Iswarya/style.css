@@ -1,14 +1,14 @@
 nav ul {
-	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #8274c0;
-	display: table;
-	width: 100%;
+	
 }
 nav li {
-	display: table-cell
+	display: inline-block;
+	border: 10px;
+	width:100%;
 }
 
 li a {
@@ -20,5 +20,5 @@ li a {
 }
 
 li a:hover {
-	background-color: #111;
+	background-color: rgb(15, 1, 65);
 }
