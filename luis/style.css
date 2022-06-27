@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 10;
+    padding: 4;
     box-sizing: border-box;
   }
 
@@ -28,14 +28,20 @@
     font-size: 1.2rem;
     color: crimson;
   }
-h1, p, h2 {
+h1, p, h2, ul {
     color: brown;
 }
 
 body {
     background-size: cover;
     background-image: url(https://backgroundlabs.com/wp-content/uploads/2015/02/pastel-circle-dot-background-1.png);
+    
 }
 
+p {
 
+  border-style: dashed;
+  border: 1.5px solid;
+  
+}
 
