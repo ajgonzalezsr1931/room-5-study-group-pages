@@ -1,0 +1,34 @@
+header, footer {
+    background-color: teal;
+}
+
+nav {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: mediumturquoise;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1, h2 {
+    color: teal;
+}
+
+table {
+    max-width: 1000px;
+    margin: 0 auto;
+}
