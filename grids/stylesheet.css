@@ -1,0 +1,31 @@
+.container {
+    display: grid;
+    width: 680px;
+    margin: 200px 100px;
+    background-color: blue;
+    grid-template-areas: "red-square yellow-square green-rect purple-rect"
+                         "red-square yellow-square red-rect orange-rect";
+    grid-template-columns: 120px 120px 220px 220px;
+    grid-template-rows: 110px 110px ;
+}
+
+.red-square {
+    background-color: red;
+    grid-area: red-square;
+    margin: 10px 10px;
+}
+.yellow-square {
+    background-color:yellow;
+    grid-area: yellow-square;
+    margin: 10px 10px;
+}
+.green-rect {
+    background-color:green;
+    grid-area: green-rect;
+    margin: 25px 10px;
+}
+.red-rect {
+    background-color: red;
+    grid-area: red-rect;
+    margin: 25px 10px;
+}
